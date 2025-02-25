@@ -1,0 +1,42 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your library - Cards</title>
+    <link rel="stylesheet" href="pagecards.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-menu">
+            <button class="header-buttons"><a class="as-links" href="/index.html">Books</a></button>
+            <button class="header-buttons"><a class="as-links" href="/pagevisitors.html">Visitors</a></button>
+            <button class="header-buttons"><a class="as-links" href="/pagecards.html">Cards</a></button>
+            <button class="header-buttons"><a class="as-links" href="/pagestatistic.html">Statistic</a></button>
+        </div>
+    </header>
+    <div class="main-page">
+        <div class="create-card">
+            <p id="text-create">Create a card</p>
+            <form id="give-book">
+                <label for="book-name">Enter name of the book</label>
+                <input type="text" placeholder="Book`s name" id="book-name" required>
+                <label for="name-first">Enter your first name</label>
+                <input type="text" placeholder="First name" id="name-first" required>
+                <label for="name-last">Enter your last name</label>
+                <input type="text" placeholder="Last name" id="name-last" required>
+                <button type="submit" id="take-the-book">Take the book</button>
+            </form>
+            <p id="text-date">Enter the date of returning the book</p>
+            <form id="take-book">
+                <input type="date" id="date-of-giving" required>
+                <button type="submit" id="give-the-book-back">Return the book</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="pagecards.js"></script>
+</body>
+
+</html>

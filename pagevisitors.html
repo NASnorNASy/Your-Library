@@ -1,0 +1,221 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your library - Visitors</title>
+    <link rel="stylesheet" href="pagevisitors.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-menu">
+            <button class="header-buttons"><a class="as-links" href="/index.html">Books</a></button>
+            <button class="header-buttons"><a class="as-links" href="/pagevisitors.html">Visitors</a></button>
+            <button class="header-buttons"><a class="as-links" href="/pagecards.html">Cards</a></button>
+            <button class="header-buttons"><a class="as-links" href="/pagestatistic.html">Statistic</a></button>
+        </div>
+    </header>
+    <div class="main-page">
+        <div class="add-space">
+            <p class="add-text">Add new visitor</p>
+            <button class="add-new-visitor">Add</button>
+        </div>
+        <div class="list-visitors">
+            <div class="visitors" id="visitor1">
+                <div class="inputs">
+                    <input type="text" placeholder="First name" class="inputs-visit" id="first-name1" required>
+                    <input type="text" placeholder="Last name" class="inputs-visit" id="last-name1" required>
+                    <input type="number" min="1000000000" max="9999999999" oninput="this.value = 
+ !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" placeholder="Phone number"
+                        class="inputs-visit" id="phone-number1" required>
+                </div>
+                <div class="edit-save">
+                    <div class="info-of-visitors">
+                        <div>First name: <span id="f-name1"></span></div>
+                        <div>Last name: <span id="l-name1"></span></div>
+                        <div>Phone number: <span id="p-number1"></span></div>
+                    </div>
+                    <div>
+                        <button type="button" class="save-visits" id="save-visit1">Save/Edit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="visitors" id="visitor2">
+                <div class="inputs">
+                    <input type="text" placeholder="First name" class="inputs-visit" id="first-name2" required>
+                    <input type="text" placeholder="Last name" class="inputs-visit" id="last-name2" required>
+                    <input type="number" min="1000000000" max="9999999999" oninput="this.value = 
+ !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" placeholder="Phone number"
+                        class="inputs-visit" id="phone-number2" required>
+                </div>
+                <div class="edit-save">
+                    <div class="info-of-visitors">
+                        <div>First name: <span id="f-name2"></span></div>
+                        <div>Last name: <span id="l-name2"></span></div>
+                        <div>Phone number: <span id="p-number2"></span></div>
+                    </div>
+                    <div>
+                        <button type="button" class="save-visits" id="save-visit2">Save/Edit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="visitors" id="visitor3">
+                <div class="inputs">
+                    <input type="text" placeholder="First name" class="inputs-visit" id="first-name3" required>
+                    <input type="text" placeholder="Last name" class="inputs-visit" id="last-name3" required>
+                    <input type="number" min="1000000000" max="9999999999" oninput="this.value = 
+ !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" placeholder="Phone number"
+                        class="inputs-visit" id="phone-number3" required>
+                </div>
+                <div class="edit-save">
+                    <div class="info-of-visitors">
+                        <div>First name: <span id="f-name3"></span></div>
+                        <div>Last name: <span id="l-name3"></span></div>
+                        <div>Phone number: <span id="p-number3"></span></div>
+                    </div>
+                    <div>
+                        <button type="button" class="save-visits" id="save-visit3">Save/Edit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="visitors" id="visitor4">
+                <div class="inputs">
+                    <input type="text" placeholder="First name" class="inputs-visit" id="first-name4" required>
+                    <input type="text" placeholder="Last name" class="inputs-visit" id="last-name4" required>
+                    <input type="number" min="1000000000" max="9999999999" oninput="this.value = 
+ !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" placeholder="Phone number"
+                        class="inputs-visit" id="phone-number4" required>
+                </div>
+                <div class="edit-save">
+                    <div class="info-of-visitors">
+                        <div>First name: <span id="f-name4"></span></div>
+                        <div>Last name: <span id="l-name4"></span></div>
+                        <div>Phone number: <span id="p-number4"></span></div>
+                    </div>
+                    <div>
+                        <button type="button" class="save-visits" id="save-visit4">Save/Edit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="visitors" id="visitor5">
+                <div class="inputs">
+                    <input type="text" placeholder="First name" class="inputs-visit" id="first-name5" required>
+                    <input type="text" placeholder="Last name" class="inputs-visit" id="last-name5" required>
+                    <input type="number" min="1000000000" max="9999999999" oninput="this.value = 
+ !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" placeholder="Phone number"
+                        class="inputs-visit" id="phone-number5" required>
+                </div>
+                <div class="edit-save">
+                    <div class="info-of-visitors">
+                        <div>First name: <span id="f-name5"></span></div>
+                        <div>Last name: <span id="l-name5"></span></div>
+                        <div>Phone number: <span id="p-number5"></span></div>
+                    </div>
+                    <div>
+                        <button type="button" class="save-visits" id="save-visit5">Save/Edit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="visitors" id="visitor6">
+                <div class="inputs">
+                    <input type="text" placeholder="First name" class="inputs-visit" id="first-name6" required>
+                    <input type="text" placeholder="Last name" class="inputs-visit" id="last-name6" required>
+                    <input type="number" min="1000000000" max="9999999999" oninput="this.value = 
+ !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" placeholder="Phone number"
+                        class="inputs-visit" id="phone-number6" required>
+                </div>
+                <div class="edit-save">
+                    <div class="info-of-visitors">
+                        <div>First name: <span id="f-name6"></span></div>
+                        <div>Last name: <span id="l-name6"></span></div>
+                        <div>Phone number: <span id="p-number6"></span></div>
+                    </div>
+                    <div>
+                        <button type="button" class="save-visits" id="save-visit6">Save/Edit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="visitors" id="visitor7">
+                <div class="inputs">
+                    <input type="text" placeholder="First name" class="inputs-visit" id="first-name7" required>
+                    <input type="text" placeholder="Last name" class="inputs-visit" id="last-name7" required>
+                    <input type="number" min="1000000000" max="9999999999" oninput="this.value = 
+ !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" placeholder="Phone number"
+                        class="inputs-visit" id="phone-number7" required>
+                </div>
+                <div class="edit-save">
+                    <div class="info-of-visitors">
+                        <div>First name: <span id="f-name7"></span></div>
+                        <div>Last name: <span id="l-name7"></span></div>
+                        <div>Phone number: <span id="p-number7"></span></div>
+                    </div>
+                    <div>
+                        <button type="button" class="save-visits" id="save-visit7">Save/Edit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="visitors" id="visitor8">
+                <div class="inputs">
+                    <input type="text" placeholder="First name" class="inputs-visit" id="first-name8" required>
+                    <input type="text" placeholder="Last name" class="inputs-visit" id="last-name8" required>
+                    <input type="number" min="1000000000" max="9999999999" oninput="this.value = 
+ !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" placeholder="Phone number"
+                        class="inputs-visit" id="phone-number8" required>
+                </div>
+                <div class="edit-save">
+                    <div class="info-of-visitors">
+                        <div>First name: <span id="f-name8"></span></div>
+                        <div>Last name: <span id="l-name8"></span></div>
+                        <div>Phone number: <span id="p-number8"></span></div>
+                    </div>
+                    <div>
+                        <button type="button" class="save-visits" id="save-visit8">Save/Edit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="visitors" id="visitor9">
+                <div class="inputs">
+                    <input type="text" placeholder="First name" class="inputs-visit" id="first-name9" required>
+                    <input type="text" placeholder="Last name" class="inputs-visit" id="last-name9" required>
+                    <input type="number" min="1000000000" max="9999999999" oninput="this.value = 
+ !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" placeholder="Phone number"
+                        class="inputs-visit" id="phone-number9" required>
+                </div>
+                <div class="edit-save">
+                    <div class="info-of-visitors">
+                        <div>First name: <span id="f-name9"></span></div>
+                        <div>Last name: <span id="l-name9"></span></div>
+                        <div>Phone number: <span id="p-number9"></span></div>
+                    </div>
+                    <div>
+                        <button type="button" class="save-visits" id="save-visit9">Save/Edit</button>
+                    </div>
+                </div>
+            </div>
+            <div class="visitors" id="visitor10">
+                <div class="inputs">
+                    <input type="text" placeholder="First name" class="inputs-visit" id="first-name10" required>
+                    <input type="text" placeholder="Last name" class="inputs-visit" id="last-name10" required>
+                    <input type="number" min="1000000000" max="9999999999" oninput="this.value = 
+ !!this.value && Math.abs(this.value) >= 0 ? Math.abs(this.value) : null" placeholder="Phone number"
+                        class="inputs-visit" id="phone-number10" required>
+                </div>
+                <div class="edit-save">
+                    <div class="info-of-visitors">
+                        <div>First name: <span id="f-name10"></span></div>
+                        <div>Last name: <span id="l-name10"></span></div>
+                        <div>Phone number: <span id="p-number10"></span></div>
+                    </div>
+                    <div>
+                        <button type="button" class="save-visits" id="save-visit10">Save/Edit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="pagevisitors.js"></script>
+</body>
+
+</html>

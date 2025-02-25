@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(36, 52, 33);
+  background: linear-gradient(
+    0deg,
+    rgba(36, 52, 33, 1) 0%,
+    rgba(47, 39, 34, 1) 100%
+  );
+  display: center;
+  position: static;
+  color: black;
+}
+.main-page {
+  height: auto;
+  width: 1100px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  opacity: 70%;
+  padding: 20px 30px 20px 30px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(37, 44, 38);
+  height: 75px;
+  justify-content: center;
+  border-bottom: 1px solid white;
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+}
+.header-buttons {
+  border: none;
+  font-size: 17px;
+  background: none;
+}
+.as-links {
+  text-decoration: none;
+  color: bisque;
+}
+.popular-books {
+  text-align: center;
+  font-size: 27px;
+  margin-bottom: 18px;
+}
+.active-visitors {
+  text-align: center;
+  font-size: 27px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}
+#book-one {
+  width: 155px;
+  height: 200px;
+}
+#book-two {
+  width: 155px;
+  height: 200px;
+}
+#book-three {
+  width: 155px;
+  height: 200px;
+}
+#book-four {
+  width: 155px;
+  height: 200px;
+}
+#book-five {
+  width: 155px;
+  height: 200px;
+}
+.books-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.visitors-line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 21px;
+}
