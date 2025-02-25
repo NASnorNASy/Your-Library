@@ -1,0 +1,559 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(36, 52, 33);
+  background: linear-gradient(
+    0deg,
+    rgba(36, 52, 33, 1) 0%,
+    rgba(47, 39, 34, 1) 100%
+  );
+  display: center;
+  position: static;
+  color: black;
+}
+.main-page {
+  height: auto;
+  width: 1100px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  opacity: 70%;
+  padding: 20px 30px 20px 30px;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(37, 44, 38);
+  height: 75px;
+  justify-content: center;
+  border-bottom: 1px solid white;
+}
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1000px;
+}
+.header-buttons {
+  border: none;
+  font-size: 17px;
+  background: none;
+}
+.as-links {
+  text-decoration: none;
+  color: bisque;
+}
+.books {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  border: 0.5px dotted black;
+  padding: 5px 5px 5px 5px;
+}
+.create-space {
+  border: 1px rgb(37, 44, 38) solid;
+  height: 75px;
+  margin-bottom: 20px;
+}
+.add-text {
+  text-align: center;
+  font-size: 27px;
+  margin-bottom: 10px;
+}
+#name-of-book1 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release1 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book1 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books1 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book2 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release2 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book2 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books2 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book3 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release3 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book3 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books3 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book4 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release4 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book4 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books4 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book5 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release5 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book5 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books5 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book6 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release6 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book6 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books6 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book7 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release7 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book7 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books7 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book8 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release8 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book8 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books8 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book9 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release9 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book9 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books9 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book10 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release10 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book10 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books10 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book11 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release11 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book11 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books11 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book12 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release12 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book12 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books12 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book13 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release13 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book13 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books13 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book14 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release14 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book14 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books14 {
+  width: 240px;
+  height: 25px;
+}
+#name-of-book15 {
+  width: 240px;
+  margin-right: 40px;
+}
+#year-of-release15 {
+  width: 240px;
+  margin-right: 40px;
+}
+#author-of-book15 {
+  width: 240px;
+  margin-right: 40px;
+}
+#number-of-books15 {
+  width: 240px;
+  height: 25px;
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 10px 0px 10px;
+}
+.add-new-book {
+  margin-left: 410px;
+  width: 275px;
+  height: 20px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+  border-color: beige;
+}
+.info-of-books {
+  font-size: 18px;
+}
+.edit-save {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#save1 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save2 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save3 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save4 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save5 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save6 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save7 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save8 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save9 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save10 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save11 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save12 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save13 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save14 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#save15 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(36, 52, 33);
+  color: beige;
+}
+#book1 {
+  display: none;
+}
+#book2 {
+  display: none;
+}
+#book3 {
+  display: none;
+}
+#book4 {
+  display: none;
+}
+#book5 {
+  display: none;
+}
+#book6 {
+  display: none;
+}
+#book7 {
+  display: none;
+}
+#book8 {
+  display: none;
+}
+#book9 {
+  display: none;
+}
+#book10 {
+  display: none;
+}
+#book11 {
+  display: none;
+}
+#book12 {
+  display: none;
+}
+#book13 {
+  display: none;
+}
+#book14 {
+  display: none;
+}
+#book15 {
+  display: none;
+}
+#delete1 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete2 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete3 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete4 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete5 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete6 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete7 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete8 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete9 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete10 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete11 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete12 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete13 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete14 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+#delete15 {
+  width: 100px;
+  height: 35px;
+  background-color: rgb(86, 103, 86);
+  color: white;
+}
+.save-delete {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
